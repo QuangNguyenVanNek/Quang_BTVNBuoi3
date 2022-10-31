@@ -18,7 +18,7 @@ public class Bai2 {
                         break;
                     }
                 }
-            }else if(a[i] != a[i + 1] - 1) {
+            }else if(a[i] == a[i + 1] - 1) {
                 dem++;
                 continue;
             }
